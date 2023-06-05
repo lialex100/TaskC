@@ -37,38 +37,24 @@
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="MongoDB.Bson, Version=2.2.2.10, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MongoDB.Bson.2.2.2\lib\net45\MongoDB.Bson.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="MongoDB.Driver.Core, Version=2.2.2.10, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MongoDB.Driver.Core.2.2.2\lib\net45\MongoDB.Driver.Core.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="nunit.framework, Version=3.0.5813.39031, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.0.1\lib\net45\nunit.framework.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SQLite, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Core.1.0.99.0\lib\net46\System.Data.SQLite.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.SQLite.EF6, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.EF6.1.0.99.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.SQLite.Linq, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.99.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -82,7 +68,6 @@
     <Compile Include="IPhoneBook.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PhoneBook.cs" />
-    <Compile Include="Tests\PhoneBookTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

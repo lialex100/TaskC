@@ -29,6 +29,18 @@ namespace PhoneBookTestApp
                         "INSERT INTO PHONEBOOK (NAME, PHONENUMBER, ADDRESS) VALUES('Dave Williams','(231) 502-1236', '285 Huron St, Port Austin, MI')",
                         dbConnection);
                 command.ExecuteNonQuery();
+               
+                command =
+                    new SQLiteCommand(
+                        "INSERT INTO PHONEBOOK (NAME, PHONENUMBER, ADDRESS) VALUES('John Smith','(248) 123-4567', '1234 Sand Hill Dr, Royal Oak, MI')",
+                        dbConnection);
+                command.ExecuteNonQuery();
+
+                command =
+                    new SQLiteCommand(
+                        "INSERT INTO PHONEBOOK (NAME, PHONENUMBER, ADDRESS) VALUES('Cynthia Smith','(824) 128-8758', '875 Main St, Ann Arbor, MI')",
+                        dbConnection);
+                command.ExecuteNonQuery();
 
             }
             catch (Exception)
